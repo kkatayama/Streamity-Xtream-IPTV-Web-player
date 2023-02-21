@@ -3,7 +3,7 @@ DROP TABLE IF EXISTS `epg_data`;
 CREATE TABLE `epg_data` (
   `id` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_bin NOT NULL,
   `start_timestamp` timestamp NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp(),
-  `stop_timestamp` timestamp NOT NULL DEFAULT '1970-01-01 00:00:01',
+  `stop_timestamp` timestamp NOT NULL DEFAULT '0000-00-00 00:00:00',
   `title` varchar(255) DEFAULT NULL,
   `description` text DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
