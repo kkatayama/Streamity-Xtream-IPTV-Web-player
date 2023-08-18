@@ -24,6 +24,8 @@ yarn-debug.log*
 yarn-error.log*
 
 # Teddy Configs
+public/config.php
+public/config.js
 # configs_setup.py
 # configs_backup.py
 # config_js.tpl
