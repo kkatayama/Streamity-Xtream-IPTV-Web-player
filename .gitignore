@@ -22,3 +22,9 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# Teddy Configs
+configs_setup.py
+configs_backup.py
+config_js.tpl
+config_php.tpl
