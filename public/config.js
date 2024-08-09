@@ -2,7 +2,7 @@
 window.playername = "IPTVEditor Web Player";
 
 /*----- DNS -----*/
-window.dns = "http://star.iptvpanel.xyz"
+window.dns = "http://line.lemotv.cc"
 
 /*----- CORS -----*/
 window.cors = false; //false
